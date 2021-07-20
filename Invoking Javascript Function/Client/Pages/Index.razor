@@ -1,0 +1,17 @@
+﻿@page "/"
+@inject IJSRuntime js
+
+<input type="checkbox" @bind="check"/>
+
+@foreach(var i in d)
+            {
+                <p>Id is <b>@i.Id</b></p>
+                <p>Name is <b>@i.Name</b></p>
+                <p>Address is <b>@i.Address</b></p>
+                @if(check)
+                {
+                    <button @onclick="(()=>Delete(i))">Delete</button>
+
+                }
+                <button @onclick="(()=>Add(i))">Add New Record</button>
+            }

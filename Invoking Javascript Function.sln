@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoking Javascript Function.Server", "Invoking Javascript Function\Server\Invoking Javascript Function.Server.csproj", "{7C0E16A7-4588-461D-93B0-83B0900A64A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoking Javascript Function.Client", "Invoking Javascript Function\Client\Invoking Javascript Function.Client.csproj", "{3FA67FB8-29CE-4BC2-AE55-74E9F38C5AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoking Javascript Function.Shared", "Invoking Javascript Function\Shared\Invoking Javascript Function.Shared.csproj", "{5E4C50C1-5985-408A-9432-13025FAABB70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C0E16A7-4588-461D-93B0-83B0900A64A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0E16A7-4588-461D-93B0-83B0900A64A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0E16A7-4588-461D-93B0-83B0900A64A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0E16A7-4588-461D-93B0-83B0900A64A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA67FB8-29CE-4BC2-AE55-74E9F38C5AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA67FB8-29CE-4BC2-AE55-74E9F38C5AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA67FB8-29CE-4BC2-AE55-74E9F38C5AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA67FB8-29CE-4BC2-AE55-74E9F38C5AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E4C50C1-5985-408A-9432-13025FAABB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4C50C1-5985-408A-9432-13025FAABB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4C50C1-5985-408A-9432-13025FAABB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4C50C1-5985-408A-9432-13025FAABB70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE7F12D4-E1C3-4C5C-8D08-459DB1998D58}
+	EndGlobalSection
+EndGlobal
